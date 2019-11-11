@@ -1,0 +1,99 @@
+body{margin: 0;background-color: #CCC5B9;}
+/* starting header */
+.header{background-color: #3A0E0E;height: 80px;}
+.header img{float:left;}
+.navBar
+{
+    display: inline-block;
+    margin-top: 20px;
+    float: left ;   
+}
+.navBar a {
+    font-size: 18px;
+    font-family: "Comic Sans MS";
+    color: #CCC5B9 ;
+    text-decoration: none ;
+    float: left ;
+}
+.navBar ul li{display: inline-block;padding-left: 40px;}
+.header .accounts {
+    left: 1100px ;
+    top: 40px ; 
+    font-size: medium ;
+    position: absolute;
+}
+.header .accounts a, span {text-decoration: none;color: #CCC5B9;}
+.header .serach {right:10px;position: absolute;}
+.header .serachText{
+    width: 150px;
+    height: 2px;
+    margin: 3px;
+    padding: 10px;
+}
+.header .searchBottom {width:55px;height:23px;}
+/* ending header */
+
+/* starting body */
+.containerHotel{
+    margin: 80px;
+    height: 400px ;
+    position: relative;
+    background-image: url(../images/Hotel3.jpg);
+}
+.containerHead{text-align: center;color: #3A0E0E;}
+.containerForm{position: relative;}
+.containerForm1{position: absolute;left: 7% ;}
+.containerForm2{position: absolute;left: 30%;}
+.containerForm3{position: absolute;left: 63%;}
+.containerForm1 > input , .containerForm2 > input  {
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+}
+.containerForm3 > select {
+    height: 30px;
+    width: 125px;
+    padding: 5px;
+}
+.buttonSearch{
+    width:85px;
+    height:30px;
+    background-color:#3A0E0E;
+    border:0 solid #3A0E0E;
+    color:#fff;
+}
+.buttonSearchPlace{
+    text-align:center;
+    top: 230px;
+    position: absolute;
+    left: 47%;
+}
+.container{
+    position: relative;
+    height: 570px ;
+}
+.part1{position: absolute;left: 3%;color: #3A0E0E;width: 350px;line-height: 25px;}
+.part2{position: absolute;left: 35%;color: #3A0E0E;width: 350px;line-height: 25px;}
+.part3 {position: absolute;left: 67%;color: #3A0E0E;width: 350px;line-height: 25px;}
+.container > h1 {text-align: center;color: #3A0E0E;}
+
+/* ending body */
+
+.temp{height: 500px;}
+/* starting footer */
+.footar{
+    margin: 0 ;
+    width: 100%;
+    height: 150px;
+    font-family: "Comic Sans MS";
+    position: relative;
+    color: #CCC5B9;
+    background: #3A0E0E;
+}
+.footarLogo {width: 25%;position: absolute;}
+.footarAbout {position: absolute;width: 25%;left: 25% ;}
+.footarTags {position: absolute;width: 25%;left: 50% ;}
+.footarConnect {position: absolute;width: 25%;left: 75% ;}
+.footarConnect a {color:#CCC5B9;}
+.footarConnect p {position: absolute;left: 40px; top: 90px;}
+/* ending footer */

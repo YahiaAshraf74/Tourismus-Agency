@@ -1,0 +1,151 @@
+body{margin: 0;background-color: #CCC5B9;}
+/* starting header */
+.header{background-color: #3A0E0E;height: 80px;}
+.header img{float:left;}
+.navBar
+{
+    display: inline-block;
+    margin-top: 20px;
+    float: left ;   
+}
+.navBar a {
+    font-size: 18px;
+    font-family: "Comic Sans MS";
+    color: #CCC5B9 ;
+    text-decoration: none ;
+    float: left ;
+}
+.navBar ul li{display: inline-block;padding-left: 40px;}
+.header .accounts {
+    left: 1100px ;
+    top: 40px ; 
+    font-size: medium ;
+    position: absolute;
+}
+.header .accounts a , span {text-decoration: none;color: #CCC5B9;}
+.header .serach {right:10px;position: absolute;}
+.header .serachText{
+    width: 150px;
+    height: 2px;
+    margin: 3px;
+    padding: 10px;
+}
+.header .searchBottom {width:55px;height:23px;}
+/* ending header */
+
+/* starting body */
+#HTMLButton{
+    position: fixed ;
+    bottom: 20px ;
+    right: 10px ;
+}
+
+.containerHeader{
+    height: 600px;
+    position: relative;
+    background-image: url("../images/home.jpg");
+}
+.containerHeader h1{
+    font-size: 90px;
+    font-family: "Comic Sans MS";
+    font-weight: 600;
+    position: absolute;
+    text-align: center;
+    left: 33%;
+    color: #3A0E0E ; 
+}
+.containerHeader p{
+    font-size: 20px;
+    font-family: "Comic Sans MS";
+    font-weight: 600;
+    position: absolute;
+    text-align: center;
+    left: 26%;
+    top: 25%;
+    color: #3A0E0E ; 
+}
+.buttonSignIn{
+    left: 45%;
+    top: 300px;
+    width:130px;
+    height:40px;
+    background-color:#3A0E0E;
+    border: #3A0E0E;
+    color:#fff;
+    position: absolute;
+}
+
+.containerHow{
+    text-align: center;
+    position: relative;
+    height: 550px ;
+    color: #3A0E0E;
+}
+.part1{position: absolute;left: 3%;;width: 350px;line-height: 25px;}
+.part2{position: absolute;left: 35%;;width: 350px;line-height: 25px;}
+.part3{position: absolute;left: 67%;;width: 350px;line-height: 25px;}
+
+.containerParagraph{
+    position: relative;
+    height: 350px;
+    color: #3A0E0E;
+    text-align: center;
+    font-size: 20px;
+    line-height: 35px;
+}
+.containerVideo{
+    text-align: center;
+    color: #3A0E0E;
+    height: 600px;
+    position: relative;
+}
+.containerApps{
+    height: 400px;
+    position: relative;
+    bottom: 40px;
+    color: #3A0E0E;
+}
+.containerApps h1 {
+    position: absolute;
+    left: 5%;
+    top : 15%;
+}
+.containerApps p {
+    position: absolute;
+    left: 5%;
+    top : 36%;
+    font-size: 20px;
+}
+.containerApps > img {
+    position: absolute;
+    left: 56%;
+    top : 39%;
+}
+.containerApps .first {
+    position: absolute;
+    left: 38%;
+    top : 78%;
+}
+.containerApps  .second {
+    position: absolute;
+    left: 20%;
+    top : 78%;
+}
+
+/* starting footer */
+.footar{
+    margin: 0 ;
+    width: 100%;
+    height: 150px;
+    color: #CCC5B9;
+    font-family: "Comic Sans MS";
+    position: relative;
+    background: #3A0E0E;
+}
+.footarLogo {width: 25%;position: absolute;}
+.footarAbout {position: absolute;width: 25%;left: 25% ;}
+.footarTags {position: absolute;width: 25%;left: 50% ;}
+.footarConnect {position: absolute;width: 25%;left: 75% ;}
+.footarConnect a {color:#CCC5B9;}
+.footarConnect p {position: absolute;left: 40px; top: 90px;}
+/* ending footer */

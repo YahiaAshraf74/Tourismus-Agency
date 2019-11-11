@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Booking</title>
+		<link rel="stylesheet" href="cssFiles\booking.css"/>
+		<link rel="stylesheet" href="fontAwesome\css\font-awesome.min.css"/>
+	</head>
+	<body>
+	   <!-- starting header -->   
+            <div class="header">
+				<img src="images/newlogo.png" alt="logo" height="80px" width="180px">   
+                <div class="navBar">
+					<ul> <li><a href="home.html"> <i class="fa fa-home fa-fw"></i>Home</a></li> <li><a href="packages.html" ><i class="fa fa-get-pocket fa-fw"></i>Packages</a></li> <li><a href="booking.html" ><i class="fa fa-book fa-fw" ></i>Booking</a></li> <li><a href="hotels.html" > <i class="fa fa-h-square fa-fw"></i>Hotels</a></li> <li><a href="restaurants.html" ><i class="fa fa-cutlery fa-fw" ></i>Restaurants</a></li ><li><a href="aboutUs.html" ><i class="fa fa-volume-control-phone fa-fw" ></i>About Us</a></li>
+				  </ul>
+               </div>
+				<div class="serach" >
+					<input class="serachText" type="text" height="100px" width="160px" placeholder="Search On Site...."> <input class= "searchBottom" type="submit" value="Serach">
+				</div>
+				<div class="accounts">
+					<a href="createAnAccount.html" >Create An Account </a> <span> | </span> <a href="signIn.html" >Sign In</a>
+				</div>
+            </div>
+			<!-- ending header -->
+		
+		<!-- stating body -->
+			<div class="booking">
+			    <div class="flight">
+					<form>
+						<div class="From">
+							<label>From</label><br>
+							<input type="text" placeholder="Type Departed City">
+						</div>
+						<div class="To">
+							<label>To</label><br>
+							<input type="text" placeholder="Type Destinated City" >
+						</div> 
+						<div class="Arrival">
+							<label>Arrival</label><br>
+							<input type="datetime-local">
+						</div> 
+						<div class="Depature">
+							<label>Depature</label><br>
+							<input type="datetime-local">
+						</div> 
+					    <div class="Class">
+							<label>Class</label><br>
+							<select>
+								<option value="Economy">Economy</option>
+								<option value="Business">Business</option>
+								<option value="First class">First class</option>
+							</select>
+					    </div>
+						<div class="submit">
+							<input type="submit" value="FIND FLIGHT">
+						</div>    
+					</form>
+			   </div><hr>
+			    <div class="info">
+					<form class="f1" >
+						<div class="lab">
+							<label>Name</label>
+						</div>
+						<input type="text"  placeholder="First Name" style="width:250px;">
+						<input type="text"  placeholder="Last Name" style="width:250px;" >
+						<div class="lab">
+							<label>Phone</label>
+						</div>
+						<input type="text" style="width:250px;" >
+						<input type="text"  placeholder="" style="width:250px;" >
+						<div class="lab">
+							<label>Gender</label>
+						</div>
+						<select style="width:515px;">
+							<option>Male</option>
+							<option>Female</option>
+						</select>
+						<div class="lab">
+							<label>Birth Date</label>
+						</div>
+						<input type="datetime-local"  style="width:510px;"> 
+					</form>  
+					<div class="img">
+						<img src="images/home4.jpg" width="300px" height="200px">
+					</div> 
+					<form>
+						<div class="lab">
+							<label>Adress 1</label>
+						</div>
+						<input type="text"  placeholder="Type Your Address" style="width:835px;" ><br>
+						<div class="lab">
+							<label>Adress 2</label>
+						</div>
+						<input type="text" placeholder="Type Another Address" style="width:835px;" ><br>
+						<div class="lab">
+							<label>State</label>
+						</div>
+						<input type="text"  placeholder="City " style="width:411px;">
+						<input type="text"  style="width:411px;" ><br>
+						<div class="lab">
+							<label>Post Code</label>
+						</div>
+						<input type="text"  style="width:411px;" >
+						<select style="width:411px;">
+							<option>Egypt</option>
+							<option>France</option>
+							<option>England</option>
+							<option>India</option>
+						</select>
+				   </form>
+				</div>
+			</div>
+		<!-- ending body -->
+		
+		<!-- starting footer -->
+		<div class="footar">
+			<div class="footarLogo">
+				<img src="images/newlogo.png" alt="logo" height="80px" width="180px" >
+			</div>
+			<div class="footarAbout">
+				<h4>About Company</h4>
+				<p>Greenline is an Egyptian Travel Agency licensed 1804 class A, from the Egyptian Ministry of Tourism</p>
+			</div>
+			<div class="footarTags">
+				<h4>Tags</h4>
+				<p>#tour #travel #paris #london #maldiv #turky #aswan #sharm #dahab</p>
+			</div>
+			<div class="footarConnect">
+				<h4>Connect With Us</h4>
+				<a href="#"><i class="fa fa-facebook-square fa-2x fa-fw"></i></a><a href="#"><i class="fa fa-twitter-square fa-2x fa-fw"></i></a><a href="#"><i class="fa fa-instagram fa-2x fa-fw"></i></a><a href="#"><i class="fa fa-linkedin-square fa-2x fa-fw"></i></a><a href="#"><i class="fa fa-rss-square fa-2x fa-fw"></i></a> </br><p>+45-5148-1551-199</p><a href="#"><i class="fa fa-phone-square fa-2x fa-fw"></i></a> 
+			</div>
+		</div>    
+	<!-- ending footer -->   
+	</body>
+</html>
